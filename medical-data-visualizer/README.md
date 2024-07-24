@@ -88,7 +88,11 @@
 </tbody>
 </table>
 <h2>Tasks</h2>
-<p>Create a chart similar to <code>examples/Figure_1.png</code>, where we show the counts of good and bad outcomes for the <code>cholesterol</code>, <code>gluc</code>, <code>alco</code>, <code>active</code>, and <code>smoke</code> variables for patients with <code>cardio=1</code> and <code>cardio=0</code> in different panels.</p>
+<p>Create a chart similar to
+<figure>
+    <center> <img src="./examples/Figure_1.png" width="1000"> </center>
+</figure>
+where we show the counts of good and bad outcomes for the <code>cholesterol</code>, <code>gluc</code>, <code>alco</code>, <code>active</code>, and <code>smoke</code> variables for patients with <code>cardio=1</code> and <code>cardio=0</code> in different panels.</p>
 <p>Use the data to complete the following tasks in <code>medical_data_visualizer.py</code>:</p>
 <ul>
 <li>Add an <code>overweight</code> column to the data. To determine if a person is overweight, first calculate their BMI by dividing their weight in kilograms by the square of their height in meters. If that value is &gt; 25 then the person is overweight. Use the value <code>0</code> for NOT overweight and the value <code>1</code> for overweight.</li>
@@ -103,38 +107,14 @@
 <li>weight is more than the 97.5th percentile</li>
 </ul>
 </li>
-<li>Create a correlation matrix using the dataset. Plot the correlation matrix using <code>seaborn</code>'s <code>heatmap()</code>. Mask the upper triangle. The chart should look like <code>examples/Figure_2.png</code>.</li>
+<li>Create a correlation matrix using the dataset. Plot the correlation matrix using <code>seaborn</code>'s <code>heatmap()</code>. Mask the upper triangle. The chart should look like this
+<figure>
+    <center> <img src="./examples/Figure_2.png" width=800> <center>
+</figure>
+<img
 </ul>
-<p>Any time a variable is set to <code>None</code>, make sure to set it to the correct code.</p>
-<p>Unit tests are written for you under <code>test_module.py</code>.</p>
-<h2>Instructions</h2>
-<p>By each number in the <code>medical_data_visualizer.py</code> file, add the code from the associated instruction number below.</p>
-<ol>
-<li>Import the data from <code>medical_examination.csv</code> and assign it to the <code>df</code> variable</li>
-<li>Create the <code>overweight</code> column in the <code>df</code> variable</li>
-<li>Normalize data by making <code>0</code> always good and <code>1</code> always bad. If the value of <code>cholesterol</code> or <code>gluc</code> is 1, set the value to <code>0</code>. If the value is more than <code>1</code>, set the value to <code>1</code>.</li>
-<li>Draw the Categorical Plot in the <code>draw_cat_plot</code> function</li>
-<li>Create a DataFrame for the cat plot using <code>pd.melt</code> with values from <code>cholesterol</code>, <code>gluc</code>, <code>smoke</code>, <code>alco</code>, <code>active</code>, and <code>overweight</code> in the <code>df_cat</code> variable.</li>
-<li>Group and reformat the data in <code>df_cat</code> to split it by <code>cardio</code>. Show the counts of each feature. You will have to rename one of the columns for the <code>catplot</code> to work correctly.</li>
-<li>Convert the data into <code>long</code> format and create a chart that shows the value counts of the categorical features using the following method provided by the seaborn library import : <code>sns.catplot()</code></li>
-<li>Get the figure for the output and store it in the <code>fig</code> variable</li>
-<li>Do not modify the next two lines</li>
-<li>Draw the Heat Map in the <code>draw_heat_map</code> function</li>
-<li>Clean the data in the <code>df_heat</code> variable by filtering out the following patient segments that represent incorrect data:
-<ul>
-<li>height is less than the 2.5th percentile (Keep the correct data with <code>(df['height'] &gt;= df['height'].quantile(0.025))</code>)</li>
-<li>height is more than the 97.5th percentile</li>
-<li>weight is less than the 2.5th percentile</li>
-<li>weight is more than the 97.5th percentile</li>
-</ul>
-</li>
-<li>Calculate the correlation matrix and store it in the <code>corr</code> variable</li>
-<li>Generate a mask for the upper triangle and store it in the <code>mask</code> variable</li>
-<li>Set up the <code>matplotlib</code> figure</li>
-<li>Plot the correlation matrix using the method provided by the <code>seaborn</code> library import: <code>sns.heatmap()</code></li>
-<li>Do not modify the next two lines</li>
-</ol>
-<h2>Development</h2>
-<p>Write your code in <code>medical_data_visualizer.py</code>. For development, you can use <code>main.py</code> to test your code.</p>
-<h2>Testing</h2>
-<p>The unit tests for this project are in <code>test_module.py</code>. We imported the tests from <code>test_module.py</code> to <code>main.py</code> for your convenience.</p>
+
+<br>
+
+---
+[freeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer)

@@ -22,7 +22,8 @@
   <span class="token string">'sum'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">21</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">36</span><span class="token punctuation">]</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h2>Development</h2>
-<p>Write your code in <code>mean_var_std.py</code>. For development, you can use <code>main.py</code> to test your code.</p>
-<h2>Testing</h2>
-<p>The unit tests for this project are in <code>test_module.py</code>. We imported the tests from <code>test_module.py</code> to <code>main.py</code> for your convenience.</p>
+
+<br>
+
+---
+[freeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/mean-variance-standard-deviation-calculator)

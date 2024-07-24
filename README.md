@@ -6,3 +6,4 @@ My Solutions to the Data Analysis with Python Certification projects.
 - [Demographic Data Analyzer](./demographic-data-analyzer/)
 - [Medical Data Visualizer](./medical-data-visualizer/)
 - [Page View Time Series Visualizer](./page-view-time-series-visualizer/)
+- [Sea Level Predictor](./sea-level-predictor/)

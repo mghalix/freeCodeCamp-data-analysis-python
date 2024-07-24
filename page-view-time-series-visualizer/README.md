@@ -12,7 +12,8 @@
 </ul>
 <p>For each chart, make sure to use a copy of the data frame.</p>
 <p>The boilerplate also includes commands to save and return the image.</p>
-<h2>Development</h2>
-<p>Write your code in <code>time_series_visualizer.py</code>. For development, you can use <code>main.py</code> to test your code.</p>
-<h2>Testing</h2>
-<p>The unit tests for this project are in <code>test_module.py</code>. We imported the tests from <code>test_module.py</code> to <code>main.py</code> for your convenience.</p>
+
+<br>
+
+---
+[freeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/page-view-time-series-visualizer)

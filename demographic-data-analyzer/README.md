@@ -20,10 +20,12 @@
 <li>What country has the highest percentage of people that earn &gt;50K and what is that percentage?</li>
 <li>Identify the most popular occupation for those who earn &gt;50K in India.</li>
 </ul>
-<p>Use the starter code in the file <code>demographic_data_analyzer.py</code>. Update the code so all variables set to <code>None</code> are set to the appropriate calculation or code. Round all decimals to the nearest tenth.</p>
-<h2>Development</h2>
-<p>Write your code in <code>demographic_data_analyzer.py</code>. For development, you can use <code>main.py</code> to test your code.</p>
-<h2>Testing</h2>
-<p>The unit tests for this project are in <code>test_module.py</code>. We imported the tests from <code>test_module.py</code> to <code>main.py</code> for your convenience.</p>
 <h2>Dataset Source</h2>
 <p>Dua, D. and Graff, C. (2019). <a href="http://archive.ics.uci.edu/ml" target="_blank" rel="noopener noreferrer nofollow">UCI Machine Learning Repository</a>. Irvine, CA: University of California, School of Information and Computer Science.</p>
+
+
+<br>
+
+---
+[freeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer)
+
